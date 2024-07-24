@@ -1,0 +1,23 @@
+A Program to demonstrate the different scope combination between super class and sub class beans:
+Programs:
+* Address.java
+* Employee.java
+* AppConfig.java
+* Test.java
+Output:
+Super class - singleton & sub class - singleton
+1663619914 & 341748265
+1663619914 & 341748265
+1663619914 & 341748265
+Super class - singleton & sub class - prototype
+364604394 & 146370526
+364604394 & 146370526
+364604394 & 146370526
+Super class - prototype & sub class - singleton
+510109769 & 341748265
+1473611564 & 341748265
+107456312 & 341748265
+Super class - prototype & sub class - prototype
+921760190 & 360067785
+1860250540 & 1426329391
+1690859824 & 1426329391

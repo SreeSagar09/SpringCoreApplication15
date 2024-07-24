@@ -1,0 +1,1 @@
+A Program to demonstrate the different scope combination between super class and sub class beans:
